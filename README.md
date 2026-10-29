@@ -49,12 +49,14 @@ MTBank Hackathon 2026. Family banking inside the bank's mobile app: parents mana
 
 ### ScribeTrace &nbsp;·&nbsp; <sub>private team repo, code on request</sub>
 
-MTS Hackathon. Platform for audio and video transcription with automatic summaries: upload a recording and watch every processing stage live.
+MTS Hackathon, product name Dogovor.AI. Platform that transcribes calls and meetings, writes a summary and pulls out decisions and tasks with owners and deadlines; every processing stage is visible live.
 
 - Worked on the backend and on connecting the speech-to-text and summary models to the pipeline
 - Built the web client: upload, history, live progress over WebSocket, transcript and summary views
 
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ"> <img src="https://img.shields.io/badge/WebSocket-555?style=flat-square" alt="WebSocket"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+
+<img src="assets/scribetrace-demo.gif" alt="ScribeTrace: sign-in, records, client card, calendar, microphone, AI models" width="100%">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/scribetrace-dark.svg">
