@@ -35,7 +35,7 @@ Website for a beauty salon with online booking: service catalog, masters' schedu
 
 <img src="assets/beauty-booking.gif" alt="Beauty Booking: home page and online booking flow" width="100%">
 
-### Family in Moby &nbsp;·&nbsp; [repo](https://github.com/mat-htt/mtbank2026)
+### Family in Moby &nbsp;·&nbsp; <sub>private team repo, code on request</sub>
 
 MTBank Hackathon 2026. Family banking inside the bank's mobile app: parents manage their kids' money, set limits and approve requests; kids save for goals and learn through mini-lessons.
 
@@ -47,7 +47,7 @@ MTBank Hackathon 2026. Family banking inside the bank's mobile app: parents mana
 
 <p align="center"><img src="assets/family-in-moby.gif" alt="Family in Moby: limits, savings and family screens" width="80%"></p>
 
-### ScribeTrace &nbsp;·&nbsp; [repo](https://github.com/mat-htt/ScribeTrace-Consent)
+### ScribeTrace &nbsp;·&nbsp; <sub>private team repo, code on request</sub>
 
 MTS Hackathon. Platform for audio and video transcription with automatic summaries: upload a recording and watch every processing stage live.
 
