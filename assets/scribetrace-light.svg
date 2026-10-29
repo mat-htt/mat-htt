@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+<defs><marker id="ar7c5cff" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#7c5cff"/></marker><marker id="ar2bb7a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2bb7a6"/></marker><marker id="arf0883e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#f0883e"/></marker><marker id="ar59636e" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#59636e"/></marker><style>
+.t{font:600 17px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#1f2328}
+.s{font:400 13px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#59636e}
+.l{font:500 12px ui-monospace,Consolas,monospace;fill:#59636e}
+.h{font:600 13px 'Segoe UI',Helvetica,Arial,sans-serif;fill:#59636e;letter-spacing:2px}
+.flow{stroke-dasharray:6 6;animation:f 1.2s linear infinite}
+@keyframes f{to{stroke-dashoffset:-24}}
+</style></defs>
+<rect width="1200" height="380" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<text class="h" x="40" y="44">SCRIBETRACE · PROCESSING PIPELINE</text>
+<g><rect x="40" y="90" width="220" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="40" y="90" width="4" height="70" rx="2" fill="#7c5cff"/><text class="t" x="58" y="120">Web client</text><text class="s" x="58" y="142">React · TypeScript · FSD</text></g>
+<g><rect x="340" y="90" width="240" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="340" y="90" width="4" height="70" rx="2" fill="#2bb7a6"/><text class="t" x="358" y="120">API gateway</text><text class="s" x="358" y="142">FastAPI · SQLAlchemy · UoW</text></g>
+<g><rect x="660" y="90" width="220" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="660" y="90" width="4" height="70" rx="2" fill="#f0883e"/><text class="t" x="678" y="120">Message broker</text><text class="s" x="678" y="142">RabbitMQ · retry / DLQ</text></g>
+<g><rect x="960" y="90" width="200" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="960" y="90" width="4" height="70" rx="2" fill="#7c5cff"/><text class="t" x="978" y="120">Speech core</text><text class="s" x="978" y="142">ASR + LLM summary</text></g>
+<g><rect x="340" y="250" width="240" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="340" y="250" width="4" height="70" rx="2" fill="#2bb7a6"/><text class="t" x="358" y="280">PostgreSQL</text><text class="s" x="358" y="302">JSONB versions · outbox/inbox</text></g>
+<g><rect x="660" y="250" width="220" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="660" y="250" width="4" height="70" rx="2" fill="#f0883e"/><text class="t" x="678" y="280">Redis</text><text class="s" x="678" y="302">progress notifications</text></g>
+<g><rect x="960" y="250" width="200" height="70" rx="10" fill="#f6f8fa" stroke="#d0d7de"/><rect x="960" y="250" width="4" height="70" rx="2" fill="#59636e"/><text class="t" x="978" y="280">Observability</text><text class="s" x="978" y="302">ClickHouse · Prometheus</text></g>
+<path class="flow" d="M260 115 H336" fill="none" stroke="#7c5cff" stroke-width="2" marker-end="url(#ar7c5cff)"/><text class="l" x="276" y="106">upload</text>
+<path class="flow" d="M580 115 H656" fill="none" stroke="#2bb7a6" stroke-width="2" marker-end="url(#ar2bb7a6)"/><text class="l" x="590" y="106">job event</text>
+<path class="flow" d="M880 115 H956" fill="none" stroke="#f0883e" stroke-width="2" marker-end="url(#arf0883e)"/><text class="l" x="900" y="106">task</text>
+<path class="flow" d="M1060 160 V200 H560 V164" fill="none" stroke="#7c5cff" stroke-width="2" marker-end="url(#ar7c5cff)"/><text class="l" x="780" y="192">transcript · summary</text><path class="flow" d="M460 160 V246" fill="none" stroke="#2bb7a6" stroke-width="2" marker-end="url(#ar2bb7a6)"/><path class="flow" d="M520 160 V228 H740 V246" fill="none" stroke="#f0883e" stroke-width="2" marker-end="url(#arf0883e)"/><path class="flow" d="M400 160 V200 H150 V164" fill="none" stroke="#2bb7a6" stroke-width="2" marker-end="url(#ar2bb7a6)"/><text class="l" x="168" y="192">WebSocket: live progress + replay</text><text class="s" x="40" y="356">Upload → queued job → speech-to-text → summary; the client sees every stage in real time.</text>
+</svg>
