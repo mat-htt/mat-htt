@@ -103,6 +103,7 @@ Bots and mini apps on aiogram.
 
 **Education** — Minsk State Radio Engineering College, Information Systems Development and Maintenance *(in progress)*
 
+**Связь:** [matsvei.v@gmail.com](mailto:matsvei.v@gmail.com) · Telegram [@mt_voyt](https://t.me/mt_voyt)
 ---
 
 <details>
