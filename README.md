@@ -63,6 +63,33 @@ MTS Hackathon, product name Dogovor.AI. Platform that transcribes calls and meet
   <img alt="ScribeTrace processing pipeline" src="assets/scribetrace-light.svg" width="100%">
 </picture>
 
+## More projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<b>Sad &amp; Stroy</b> — online store for tools and garden equipment
+<p>Catalog with categories, tags and price filters, product variants with their own SKU, price and stock, cart and checkout, favorites, profile with order history, dark theme. Demo catalog loads with one command.</p>
+
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white" alt="DRF"> <img src="https://img.shields.io/badge/JWT-555?style=flat-square" alt="JWT"> <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Tailwind-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind">
+
+<img src="assets/sad-stroy.gif" alt="Sad & Stroy: catalog, product variants, cart" width="100%">
+
+</td>
+<td width="50%" valign="top">
+
+<b>Ў Нескаладовае</b> — discount store for tools and repair goods
+<p>Catalog with categories, manufacturers, sorting and pagination, related products, JWT registration, cart and checkout that turns the cart into an order. Swagger docs for the whole API.</p>
+
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white" alt="DRF"> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger"> <img src="https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+
+<img src="assets/neskladovae.gif" alt="Neskaladovae: catalog, filters, cart" width="100%">
+
+</td>
+</tr>
+</table>
+
 ## Experience
 
 **Team Lead / Backend Developer** — beauty booking platform · *present*<br>
@@ -90,6 +117,7 @@ Bots and mini apps on aiogram.
 - **Beauty Booking** — сайт салона красоты с онлайн-записью к мастерам, кабинетами клиента и мастера, отзывами и акциями. Django/DRF + React, запуск через Docker Compose. Командный проект, я тимлид.
 - **«Семья в Moby»** — хакатон МТБанка 2026. Семейный банкинг внутри приложения банка: 12 микросервисов на FastAPI, RabbitMQ, PostgreSQL; ML-сервис (антифрод-скоринг, автокатегоризация трат, прогноз «хватит ли денег до конца недели»); фронт на React + TypeScript.
 - **ScribeTrace** — хакатон МТС. Расшифровка аудио и видео с автоматическим конспектом: бэкенд, подключение моделей распознавания речи и саммари, веб-клиент с прогрессом в реальном времени.
+- **«Сад & Строй»** и **«Ў Нескаладовае»** — интернет-магазины инструмента на Django REST Framework + React: каталог с фильтрами, варианты товаров, корзина, заказы, JWT.
 - **CourseHub** — образовательная платформа: навигация, настройки с темами, адаптив, видеоплеер (React + DRF). Коммерческий код, не публикуется.
 
 **Связь:** [matsvei.v@gmail.com](mailto:matsvei.v@gmail.com) · Telegram [@mt_voyt](https://t.me/mt_voyt)
