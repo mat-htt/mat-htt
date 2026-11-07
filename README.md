@@ -68,16 +68,14 @@ MTS Hackathon, product name Dogovor.AI. Platform that transcribes calls and meet
 <table>
 <tr>
 <td width="62%" valign="top">
-
-Hackathon project, November 2026. Live checking of oral answers at history lessons: a student retells a paragraph, speech is recognized in real time and compared with the textbook by terms, dates and meaning. The teacher sees the accuracy score and which parts students miss.
-
-- Speech service on FastAPI over WebSocket: Silero VAD, speaker filtering with ReDimNet, GigaAM-v3 speech-to-text
-- Scoring on Django: lemmatization, fuzzy term matching, sentence-level semantic similarity (BERTA)
-- React web app for teachers and students, Docker Compose, Nginx, deploy via GitHub Actions and Cloudflare Tunnel
-- I wrote most of the platform
-
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/WebSocket-555?style=flat-square" alt="WebSocket"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-
+<p>Hackathon project, November 2026. Live checking of oral answers at history lessons: a student retells a paragraph, speech is recognized in real time and compared with the textbook by terms, dates and meaning. The teacher sees the accuracy score and which parts students miss.</p>
+<ul>
+<li>Speech service on FastAPI over WebSocket: Silero VAD, speaker filtering with ReDimNet, GigaAM-v3 speech-to-text</li>
+<li>Scoring on Django: lemmatization, fuzzy term matching, sentence-level semantic similarity (BERTA)</li>
+<li>React web app for teachers and students, Docker Compose, Nginx, deploy via GitHub Actions and Cloudflare Tunnel</li>
+<li>I wrote most of the platform</li>
+</ul>
+<p><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/WebSocket-555?style=flat-square" alt="WebSocket"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></p>
 </td>
 <td width="38%" valign="top" align="center">
 <img src="assets/ustno.gif" alt="Ustno: live answer, accuracy score, terms and dates" width="260">
