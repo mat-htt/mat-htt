@@ -92,7 +92,7 @@ Peleng hackathon, November 2026. Online 3D position of a moving truck from five 
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/YOLO-111?style=flat-square" alt="YOLO"> <img src="https://img.shields.io/badge/SAM_2-0467DF?style=flat-square&logo=meta&logoColor=white" alt="SAM 2"> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
 
-<img src="assets/peleng-tracking.gif" alt="Top view with ground truth and online 3D track, five camera feeds" width="100%">
+<img src="assets/peleng-tracking.gif" alt="Five cameras with the projected truck model and speed" width="100%">
 
 ## More projects
 
