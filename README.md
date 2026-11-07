@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/English-B2-7c5cff?style=flat-square" alt="English B2">
 </p>
 
-I build backend services and REST APIs with Django and DRF, and take features end to end when they need a React frontend. Right now I lead the development team of a beauty-salon booking platform: planning tasks, reviewing pull requests and writing a large part of the backend. At hackathons I work on backend services and the ML parts of the product.
+I build backend services and REST APIs with Django and DRF, and take features end to end when they need a React frontend. Right now I lead the development team of a beauty-salon booking platform: planning tasks, reviewing pull requests and writing a large part of the backend. At hackathons I work on backend services, ML and computer vision parts of the product.
 
 ## Tech stack
 
@@ -62,6 +62,39 @@ MTS Hackathon, product name Dogovor.AI. Platform that transcribes calls and meet
   <source media="(prefers-color-scheme: dark)" srcset="assets/scribetrace-dark.svg">
   <img alt="ScribeTrace processing pipeline" src="assets/scribetrace-light.svg" width="100%">
 </picture>
+
+### Ustno &nbsp;·&nbsp; <sub>private team repo, code on request</sub>
+
+<table>
+<tr>
+<td width="62%" valign="top">
+
+Hackathon project, November 2026. Live checking of oral answers at history lessons: a student retells a paragraph, speech is recognized in real time and compared with the textbook by terms, dates and meaning. The teacher sees the accuracy score and which parts students miss.
+
+- Speech service on FastAPI over WebSocket: Silero VAD, speaker filtering with ReDimNet, GigaAM-v3 speech-to-text
+- Scoring on Django: lemmatization, fuzzy term matching, sentence-level semantic similarity (BERTA)
+- React web app for teachers and students, Docker Compose, Nginx, deploy via GitHub Actions and Cloudflare Tunnel
+- I wrote most of the platform
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/WebSocket-555?style=flat-square" alt="WebSocket"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+
+</td>
+<td width="38%" valign="top" align="center">
+<img src="assets/ustno.gif" alt="Ustno: live answer, accuracy score, terms and dates" width="260">
+</td>
+</tr>
+</table>
+
+### Where is the truck — 3D tracking &nbsp;·&nbsp; [repo](https://github.com/mat-htt/3dtracking-absolute)
+
+Peleng hackathon, November 2026. Online 3D position of a moving truck from five calibrated cameras: detection and segmentation in each camera, rays and triangulation, fitting of the truck's CAD model, Kalman filtering. Result on the test sequence: MAE 2.46 m with an answer on every frame.
+
+- My part: single-camera "cab ray" before the first multi-camera fix (first-second error 5.0 m → 1.7 m) and gap filling when the tracker loses the truck in dust or occlusions
+- Input parser for new data, metrics without ground truth, detector fine-tuning, demo video
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/YOLO-111?style=flat-square" alt="YOLO"> <img src="https://img.shields.io/badge/SAM_2-0467DF?style=flat-square&logo=meta&logoColor=white" alt="SAM 2"> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+
+<img src="assets/peleng-tracking.gif" alt="Top view with ground truth and online 3D track, five camera feeds" width="100%">
 
 ## More projects
 
@@ -119,6 +152,8 @@ Bots and mini apps on aiogram.
 - **«Семья в Moby»** — хакатон МТБанка 2026. Семейный банкинг внутри приложения банка: 12 микросервисов на FastAPI, RabbitMQ, PostgreSQL; ML-сервис (антифрод-скоринг, автокатегоризация трат, прогноз «хватит ли денег до конца недели»); фронт на React + TypeScript.
 - **ScribeTrace** — хакатон МТС. Расшифровка аудио и видео с автоматическим конспектом: бэкенд, подключение моделей распознавания речи и саммари, веб-клиент с прогрессом в реальном времени.
 - **«Сад & Строй»** и **«Ў Нескаладовае»** — интернет-магазины инструмента на Django REST Framework + React: каталог с фильтрами, варианты товаров, корзина, заказы, JWT.
+- **«Устно»** — хакатон, ноябрь 2026. Живая проверка устных ответов на уроках истории: распознавание речи (FastAPI, WebSocket, GigaAM), оценка по терминам, датам и смыслу (Django), веб-приложение на React.
+- **«Где грузовик»** — хакатон Пеленга, ноябрь 2026. 3D-трекинг грузовика по пяти камерам: YOLO, SAM 2, триангуляция, фильтр Калмана; MAE 2,46 м.
 - **CourseHub** — образовательная платформа: навигация, настройки с темами, адаптив, видеоплеер (React + DRF). Коммерческий код, не публикуется.
 
 **Связь:** [matsvei.v@gmail.com](mailto:matsvei.v@gmail.com) · Telegram [@mt_voyt](https://t.me/mt_voyt)
