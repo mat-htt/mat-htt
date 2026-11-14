@@ -63,6 +63,26 @@ MTS Hackathon, product name Dogovor.AI. Platform that transcribes calls and meet
   <img alt="ScribeTrace processing pipeline" src="assets/scribetrace-light.svg" width="100%">
 </picture>
 
+### picPac — photo products app &nbsp;·&nbsp; [repo](https://github.com/mat-htt/Great_stone_hack)
+
+<table>
+<tr>
+<td width="62%" valign="top">
+<p>Great Stone hackathon, November 2026, case from the Fotoprint print studio. A mobile app for ordering photo books, prints and gifts: the Cat assistant picks the best shots and builds the layout, the Robot checks every page before printing. Plus the Studio admin panel with KPI analytics, a photo pipeline and an AI gateway.</p>
+<ul>
+<li>FastAPI backend: JWT roles, idempotent orders, offline autosave with versions, Telegram bot, voice commands over WebSocket</li>
+<li>Image AI on CPU: face detection to keep faces out of the trim, FSRCNN upscaling, background removal, blur and duplicate detection, auto layout</li>
+<li>LLM assistant on Qwen3 (Ollama) or any OpenAI-compatible API with a built-in fallback</li>
+<li>React + TypeScript app with a three.js 3D book preview and configurable themes; everything starts with one <code>docker compose up</code></li>
+</ul>
+<p><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"> <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/three.js-000?style=flat-square&logo=threedotjs&logoColor=white" alt="three.js"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"></p>
+</td>
+<td width="38%" valign="top" align="center">
+<img src="assets/picpac.gif" alt="picPac: catalog, 3D photo book, auto layout, editor, pre-print check" width="260">
+</td>
+</tr>
+</table>
+
 ### Ustno &nbsp;·&nbsp; <sub>private team repo, code on request</sub>
 
 <table>
@@ -150,6 +170,7 @@ Bots and mini apps on aiogram.
 - **«Семья в Moby»** — хакатон МТБанка 2026. Семейный банкинг внутри приложения банка: 12 микросервисов на FastAPI, RabbitMQ, PostgreSQL; ML-сервис (антифрод-скоринг, автокатегоризация трат, прогноз «хватит ли денег до конца недели»); фронт на React + TypeScript.
 - **ScribeTrace** — хакатон МТС. Расшифровка аудио и видео с автоматическим конспектом: бэкенд, подключение моделей распознавания речи и саммари, веб-клиент с прогрессом в реальном времени.
 - **«Сад & Строй»** и **«Ў Нескаладовае»** — интернет-магазины инструмента на Django REST Framework + React: каталог с фильтрами, варианты товаров, корзина, заказы, JWT.
+- **picPac** — хакатон «Великий камень», кейс «Фотопринта». Приложение для заказа фотокниг и фотопечати: Кот сам собирает макет, Робот проверяет печать; FastAPI, OpenCV/ONNX, React + three.js, админка с аналитикой.
 - **«Устно»** — хакатон, ноябрь 2026. Живая проверка устных ответов на уроках истории: распознавание речи (FastAPI, WebSocket, GigaAM), оценка по терминам, датам и смыслу (Django), веб-приложение на React.
 - **«Где грузовик»** — хакатон Пеленга, ноябрь 2026. 3D-трекинг грузовика по пяти камерам: YOLO, SAM 2, триангуляция, фильтр Калмана; MAE 2,46 м.
 - **CourseHub** — образовательная платформа: навигация, настройки с темами, адаптив, видеоплеер (React + DRF). Коммерческий код, не публикуется.
